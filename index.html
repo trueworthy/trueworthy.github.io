@@ -4,8 +4,7 @@
 <html>
 <head>
 	<title>
-   Web 330 Portfolio
-    
+  Lea Trueworthy Portfolio 
   </title>
 	
 <link rel="stylesheet" href="site.css"> 
@@ -15,22 +14,11 @@
 </head>
 <body class="layout-portfolio">
 
-<div class="site-header site-header-portfolio">
-      <div class="site-nav-animation-wrapper menu-animation-wrapper">
-      <div class="site-nav-animated-background menu-animated-background"></div>
-    </div>
-   
-<div class="site-nav-animation-wrapper site-search-animation-wrapper">
-    <div class="site-nav-animated-background site-search-animated-background"></div>
-    </div>
-
-</div>
-
-
-
 <div class="content-wrapper heroSection">
 		<h3 class="portfolio-intro-subheader">Web Developer</h3>
-		<h2 class="single-page-header portfolio-intro-header">Lea Trueworthy</h2>
+		<h2 class="single-page-header portfolio-intro-header reveal-text">Lea Trueworthy</h2>
+
+		<!--<h2 class="single-page-header portfolio-intro-header">Lea Trueworthy</h2>-->
 </div>
 
 <div class="content-wrapper grid-items gridItems-peak" id="class">
@@ -48,7 +36,7 @@
 	
 		<div class="grid-item grid-item-wide case-item-minecraft3">
 		<span class="gridItemButton">
-  <span class="gridItemButtonLabel">Visit Project</span>
+  <span class="gridItemButtonLabel">Visit Site</span>
 </span>
 		<h3 class="case-item-header case-item-header-minecraft">Web 231</h3>
 		<div class="case-item-content"></div>
@@ -67,19 +55,57 @@
 	</div>
 	
 </div>
-
-<div class="content-wrapper contact-card" id="contact">
-  <h2 class="section-header">Hello</h2>
 	
-		<!-- <div class="grid-item grid-item-wide case-item-minecraft1" style="background: #1E1E1E">
-					<h3 class="portfolio-intro-subheader">Web Developer</h3>
-		<h2 class="single-page-header portfolio-intro-header" href="mailto:ltrueworthy@yahoo.com">Lea Trueworthy</h2>
-</div>-->
+	<div class="content-wrapper grid-items">
+	<h2 class="section-header">Samples</h2>
+		
+		<div class="grid-item grid-item-wide case-item-minecraft4">
+		<span class="gridItemButton">
+  <span class="gridItemButtonLabel">Visit Site</span>
+</span>
+		<div class="case-item-content"><img src="images/paws4love-test45.jpg" alt="Paws4Love"></div>
+		<p class="grid-item-text grid-item-text-minecraft" style="color: black">Paws 4 Love, through pet therapy, encourages literacy, volunteerism and well-being within the community</p>
+		<a href="http://www.paws4lovereno.org/" target="_blank" class="gridItemLink"></a>
+	</div>	
+		
+		<div class="grid-item grid-item-wide case-item-minecraft5">
+		<span class="gridItemButton">
+  <span class="gridItemButtonLabel">Visit Site</span>
+</span>
+		<div class="case-item-content"><img src="images/worthy.jpg" style="width: 50%" alt="worthy"></div>
+		
+		<a href="https://www.worthytattooreno.com/" target="_blank" class="gridItemLink"></a>
+	</div>	
+	
+		<div class="grid-item case-item-spinkit">
+		<span class="gridItemButton">
+  <span class="gridItemButtonLabel">Enlarge</span>
+</span>
+		<h3 class="case-item-header">TMCC Gecko</h3>
+		<div class="case-item-content"><img src="images/smallgecko.jpg" alt="gecko"></div>
+		<p class="grid-item-text">Wizard the Gecko looking fierce showing off his <i>new</i> logo for TMCC Athletes</p>
+		<a href="images/gecko.jpg" target="_blank" class="gridItemLink"></a>
+	</div>
 
- <div class="contact-info">
-    <a class="case-item-header" href="mailto:ltrueworthy@yahoo.com">Email me here</a>
+	<div class="grid-item case-item-moving-letters">
+		<span class="gridItemButton">
+  <span class="gridItemButtonLabel">Enlarge</span>
+</span>
+		<h3 class="case-item-header case-item-header-ml"><span class="case-item-ml-text-wrapper">Snazzy penguin</span></h3>
+		<div class="case-item-content"><img src="images/smallscreen_penguin.jpg" alt="penguin"></div>
+		<p class="grid-item-text">Screen printing using only two colors</p>
+		<a href="images/screen_penguin.jpg" target="_blank" class="gridItemLink"></a>
+		</div>
+	
+	</div>
+<div class="content-wrapper contact-card">
+  <h2 class="section-header">Hello</h2>
+
+  <div class="contact-info">
+    <div class="grid-item-divider-left"></div>
+        <a class="case-item-header" href="mailto:ltrueworthy@yahoo.com">Email me</a><br>
 	 	<center> <img src="images/nv.png" alt="nevada"></center>
-    <p class="grid-item-text grid-item-text-left">Reno, Nevada <br>Unitied States<br>
+			<p class="grid-item-text grid-item-text-minecraft">Located in Reno, Nevada <br>United States<br>
 		<br>
 <br>
 <br>	
@@ -87,48 +113,36 @@
 
 		
 </p>
+    <div class="contact-picture"><br>
+	<a class="case-item-header" > Contact Me </a><br>
 
-    <div class="contact-picture">
-<p class="grid-item-text grid-item-text-minecraft">
-<h3 class="case-item-header case-item-header-minecraft">Contact Form</h3>
+		<form id="ajax-contact" method="post" action="mailer.php">
+			<div class="field">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
 
+			<div class="field">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
 
-<form method="post" action="mailto:ltrueworthy@yahoo.com" enctype="text/plain">
-	
-		<!--Textbox--><label for="your_name">Name</label>
-		<input type="text" value="" id="your_name" required>
-		
-		<br>
-		
-		<!--Textbox--><label for="phoney">Phone</label>
-		<input type="tel" value="" id="phoney" required>
-		
-		<br>
-		
-		<!--Textbox--><label for="emails">Email</label>
-		<input type="email" value="" id="emails">
-		
-		<br>
-		
-		<!--Textarea--><label for="spleen_vent">Message</label>
-		<textarea id="spleen_vent" value="Vent your spleen here"></textarea>
-		
-		<br>
-		
-		<!--send and reset buttons-->
-		
-		<div class="button_container">
-		
-		<input type="submit" value="Send message!">
-		<input type="reset" value="Clear">
-		
-		</div>
-	
-	</form>
-		</p>
+			<div class="field">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+			</div>
+
+			<div class="field">
+				<button type="submit">Send</button>
+			</div>
+		</form>
+      
     </div>
   </div>
 
 </div>
-</body>
+	<!-- Scripts -->
+	<script src="scripts/jquery-2.1.0.min.js"></script>
+	<script src="scripts/app.js"></script>
+	</body>
 </html>
