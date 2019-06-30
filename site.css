@@ -225,6 +225,12 @@ html,div,span,object,iframe,h2,h3,h4,h5,h6,p,blockquote,pre,a,code,del,em,img,sm
 .case-item-spinkit{
 	background-color:#838383}
 
+.case-item-minecraftt{
+    color: #fff;
+    background-size: cover;
+    background-image: url(images/heroku-cover.png);
+}
+
 .case-item-minecraft1{
     color: #fff;
     background-color: #838383;
