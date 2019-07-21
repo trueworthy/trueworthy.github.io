@@ -3,9 +3,10 @@ html,div,span,object,iframe,h2,h3,h4,h5,h6,p,blockquote,pre,a,code,del,em,img,sm
 }p{margin-bottom:2em}.siteHead-logoMark{height:13px;width:24px;position:relative;top:2px}.prez {
     color: #a177af;
     text-decoration: none;
+    text-shadow: 0px 0px;
 }
 .prez a:hover {
-    color: white;
+    /* [disabled]color: white; */
 }
 @media all and (max-width: 480px){}.ampersand{font-family:Baskerville, "EB Garamond", serif;font-style:italic}.single-page-header{font-family:"EB Garamond",serif;font-size:42px;font-weight:400;line-height:1.3em}.gridItemButton{
     position: absolute;
